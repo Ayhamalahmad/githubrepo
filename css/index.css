@@ -63,7 +63,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    overflow: auto;
 }
 .content .repo:not(:last-child){
     margin-bottom: 5px;

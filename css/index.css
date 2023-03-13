@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F5F9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.container .top {
+    margin: auto;
+    width: max-content;
+}
+
+.container .top .inputgithubusername {
+    background-color: #EEEEEE;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.container .top .inputgithubusername:focus {
+    outline: none;
+
+
+}
+
+.container .top .inputgithubusername:focus::placeholder {
+    opacity: 0;
+
+}
+
+.container .submitusername {
+    border: none;
+    padding: 10px 15px;
+    background-color: #616161;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .submitusername:hover {
+    background-color: #474554;
+}
+
+.content {
+    margin-top: 30px;
+
+}
+.content .repo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content .repo:not(:last-child){
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.content .repo div {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .repo a {
+    order: 3;
+}
+
+.content .repo a,
+.content .repo span {
+    background-color: #008DE0;
+    padding: 5px 15px;
+    border-radius: 6px;
+
+}
+
+.content .repo a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: .3s;
+}
+
+.content .repo a:hover {
+    background-color: #8083FF;
+}
+
+.content .repo span {
+    background-color: #FFE8FC;
+}
